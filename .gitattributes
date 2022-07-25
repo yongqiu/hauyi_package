@@ -2,3 +2,7 @@
 *.bin filter=lfs diff=lfs merge=binary -text
 *.uasset filter=lfs diff=lfs merge=binary -text
 *.png filter=lfs diff=lfs merge=binary -text
+/huayi/huayi/Binaries/Win64/huayi2.exe filter=lfs diff=lfs merge=lfs -text
+/huayi/huayi/Binaries/Win64/huayi2.pdb filter=lfs diff=lfs merge=lfs -text
+/huayi/huayi/Intermediate/Build/Win64/huayi2/Development/Core/SharedPCH.Core.h.pch filter=lfs diff=lfs merge=lfs -text
+/huayi/huayi/Saved/StagedBuilds/WindowsNoEditor/huayi2/Binaries/Win64/huayi2.exe filter=lfs diff=lfs merge=lfs -text
